@@ -56,6 +56,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/inscribir"
-        android:enabled="false"
+        android:enabled="true"
         tools:ignore="InOrMmUsage,OnClick" />
 </LinearLayout>
