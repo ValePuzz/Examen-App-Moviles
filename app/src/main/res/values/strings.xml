@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="titulo_inicial">Examen Final</string>
+    <string name="titulo_form">Complete los campos solicitados:</string>
+    <string name="nombre">Ingrese su nombre:</string>
+    <string name="apellido">Ingrese su apellido:</string>
+    <string name="carrera">Seleccione que carrera cursa:</string>
+    <string name="materia">Seleccione materia para rendir:</string>
+    <string-array name="carreras">
+        <item>:: Seleccione ::</item>
+        <item>CIVIL</item>
+        <item>INDUSTRIAL</item>
+        <item>MECANICA</item>
+        <item>SISTEMAS</item>
+        <item>ELECTRICA</item>
+    </string-array>
+    <string-array name="materias">
+        <item>:: Seleccione ::</item>
+        <item>FISICA</item>
+        <item>ANALISIS MATEMATICO</item>
+        <item>QUIMICA</item>
+        <item>APP MOVILES</item>
+        <item>PROYECTO FINAL</item>
+    </string-array>
+    <string name="inscribir">Inscribirse</string>
+
+</resources>

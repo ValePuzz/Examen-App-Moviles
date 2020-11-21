@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_inicial"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/apellido"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/carrera">
+    </TextView>
+
+    <Spinner
+        android:id="@+id/carreras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/carreras"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/materia">
+    </TextView>
+
+    <Spinner
+        android:id="@+id/materias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/materias"/>
+
+    <Button
+        android:id="@+id/botoninscribirme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/inscribir"
+        android:enabled="false"
+        tools:ignore="InOrMmUsage,OnClick" />
+</LinearLayout>
